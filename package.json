@@ -1,0 +1,21 @@
+{
+  "name": "schools",
+  "version": "1.0.0",
+  "description": "\"API endpoints\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Rehan Shah",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4",
+    "prisma": "^5.18.0"
+  }
+}
