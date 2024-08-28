@@ -14,7 +14,8 @@ app.get('/',(_,res)=>{
     res.send('API is Running')
 })
 
-app.listen(3000,()=>{
+app.listen(3001,()=>{
     console.log('Server is running on port 3000')
 })
 
+export default app;
