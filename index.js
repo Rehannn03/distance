@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { schoolRouter } from '../router/schoolRouter.js';
+import { schoolRouter } from './router/schoolRouter.js';
 const app=express()
 
 app.use(express.json())
